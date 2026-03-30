@@ -36,7 +36,7 @@ const NavBar = () => {
                     <a href=""><LuShoppingCart/></a>
                     <a href="">Login</a>
                 </div>
-                <button className='text-[0.675rem] md:text-[1rem] font-medium md:font-semibold py-2 md:py-3 px-3 md:px-4  text-white rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA]'>Get Started</button>
+                <button className='btn text-[0.675rem] md:text-[1rem] font-medium md:font-semibold py-2 md:py-3 px-3 md:px-4  text-white rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA]'>Get Started</button>
                 
             </div>
         </div>

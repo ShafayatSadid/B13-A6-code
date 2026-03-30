@@ -1,7 +1,9 @@
 import './App.css'
 import Footer from './components/footer/Footer'
 import NavBar from './components/header/navBar/NavBar'
-import Banner from './components/main/Banner'
+import Banner from './components/main/banner/Banner'
+import Premium from './components/main/premiumTools/Premium'
+
 
 function App() {
 
@@ -13,7 +15,8 @@ function App() {
       </header>
 
       <main>
-        <Banner/>
+        <Banner></Banner>
+        <Premium/>
       </main>
 
       <footer>

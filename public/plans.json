@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "name": "Free",
+    "description": "Try the basics at no cost.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free",
+    "tagType": "free",
+    "features": [
+      "3 templates",
+      "Basic ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "🆓"
+  },
+  {
+    "id": 2,
+    "name": "Starter",
+    "description": "A great first step for job seekers.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10 templates",
+      "Basic ATS optimization",
+      "Export to PDF",
+      "Email support"
+    ],
+    "icon": "🌱"
+  },
+  {
+    "id": 3,
+    "name": "Basic",
+    "description": "Simple tools for everyday job hunting.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": null,
+    "tagType": null,
+    "features": [
+      "20 templates",
+      "ATS optimization",
+      "Export to PDF & Word",
+      "Email support"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 4,
+    "name": "Standard",
+    "description": "More templates and better support.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": null,
+    "tagType": null,
+    "features": [
+      "40 templates",
+      "Advanced ATS optimization",
+      "Export to PDF & Word",
+      "Chat support"
+    ],
+    "icon": "📋"
+  },
+  {
+    "id": 5,
+    "name": "Pro",
+    "description": "The most popular choice for professionals.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "60 templates",
+      "Advanced ATS optimization",
+      "Export to PDF, Word & HTML",
+      "Priority support",
+      "Cover letter builder"
+    ],
+    "icon": "⚡"
+  },
+  {
+    "id": 6,
+    "name": "Pro Plus",
+    "description": "Everything in Pro, plus extra power.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": null,
+    "tagType": null,
+    "features": [
+      "80 templates",
+      "Full ATS optimization",
+      "Export to all formats",
+      "Priority support",
+      "Cover letter builder",
+      "LinkedIn optimizer"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 7,
+    "name": "Business",
+    "description": "Perfect for teams and recruiters.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "100+ templates",
+      "Full ATS optimization",
+      "Export to all formats",
+      "Team dashboard",
+      "24/7 support",
+      "Custom branding"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 8,
+    "name": "Elite",
+    "description": "Maximum features for serious job seekers.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best-value",
+    "features": [
+      "Unlimited templates",
+      "Full ATS optimization",
+      "Export to all formats",
+      "Personal career coach",
+      "24/7 priority support",
+      "Custom branding"
+    ],
+    "icon": "👑"
+  },
+  {
+    "id": 9,
+    "name": "Enterprise",
+    "description": "Custom solutions for large organizations.",
+    "price": 199.99,
+    "period": "yearly",
+    "tag": "Custom",
+    "tagType": "custom",
+    "features": [
+      "Unlimited templates",
+      "Full ATS optimization",
+      "Export to all formats",
+      "Dedicated account manager",
+      "API access",
+      "Custom integrations",
+      "SLA guarantee"
+    ],
+    "icon": "🏢"
+  }
+]
