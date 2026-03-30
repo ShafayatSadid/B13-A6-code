@@ -3,7 +3,7 @@ import { LuShoppingCart } from 'react-icons/lu';
 
 const NavBar = () => {
     return (
-        <div className="navbar bg-base-100 md:w-11/12 mx-auto">
+        <div className="navbar bg-base-100 md:w-11/12 mx-auto lg:mt-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -20,7 +20,7 @@ const NavBar = () => {
 
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl bg-linear-to-bl from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
+                <a className="btn btn-ghost text-[1.5rem] md:text-[2rem] lg:text-[3rem] bg-linear-to-bl from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-[1rem]/[120%] font-semibold text-[#101727]">
