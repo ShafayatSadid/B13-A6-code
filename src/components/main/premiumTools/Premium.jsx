@@ -4,14 +4,14 @@ import Products from './products/Products';
 const Premium = ({ plansPromise }) => {
 
     const plans = use(plansPromise);
-    console.log(plans)
+    
 
     const [btnTheme, setBtnTheme] = useState("products")
 
 
 
     return (
-        <div>
+        <div className='mb-30'>
             <div className='mt-20 md:mt-30 mb-10'>
                 <h2 className='text-[2rem] lg:text-[3rem] font-extrabold text-center'>Premium Digital Tools</h2>
                 <p className='text-[1rem] my-4 text[#627382] max-w-140 text-center mx-auto'>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
@@ -31,7 +31,7 @@ const Premium = ({ plansPromise }) => {
                 </div>
             </div>
 
-            <Products></Products>
+            <Products plans={plans}></Products>
         </div>
     );
 };

@@ -6,7 +6,7 @@
     "price": 0,
     "period": "one-time",
     "tag": "Free",
-    "tagType": "free",
+    "tagType": "badge-accent",
     "features": [
       "3 templates",
       "Basic ATS optimization",
@@ -21,14 +21,14 @@
     "price": 4.99,
     "period": "monthly",
     "tag": "New",
-    "tagType": "new",
+    "tagType": "badge-info",
     "features": [
       "10 templates",
       "Basic ATS optimization",
       "Export to PDF",
       "Email support"
     ],
-    "icon": "🌱"
+    "icon": "/src/assets/starter.svg"
   },
   {
     "id": 3,
@@ -36,15 +36,15 @@
     "description": "Simple tools for everyday job hunting.",
     "price": 9.99,
     "period": "monthly",
-    "tag": null,
-    "tagType": null,
+    "tag": "Popular",
+    "tagType": "badge-primary",
     "features": [
       "20 templates",
       "ATS optimization",
       "Export to PDF & Word",
       "Email support"
     ],
-    "icon": "📄"
+    "icon": "/src/assets/basic.png"
   },
   {
     "id": 4,
@@ -52,15 +52,15 @@
     "description": "More templates and better support.",
     "price": 14.99,
     "period": "monthly",
-    "tag": null,
-    "tagType": null,
+    "tag": "Recommended",
+    "tagType": "badge-secondary",
     "features": [
       "40 templates",
       "Advanced ATS optimization",
       "Export to PDF & Word",
       "Chat support"
     ],
-    "icon": "📋"
+    "icon": "/src/assets/standard.svg"
   },
   {
     "id": 5,
@@ -69,7 +69,7 @@
     "price": 19.99,
     "period": "monthly",
     "tag": "Popular",
-    "tagType": "popular",
+    "tagType": "badge-primary",
     "features": [
       "60 templates",
       "Advanced ATS optimization",
@@ -77,7 +77,7 @@
       "Priority support",
       "Cover letter builder"
     ],
-    "icon": "⚡"
+    "icon": "/src/assets/pro.png"
   },
   {
     "id": 6,
@@ -85,8 +85,8 @@
     "description": "Everything in Pro, plus extra power.",
     "price": 29.99,
     "period": "monthly",
-    "tag": null,
-    "tagType": null,
+    "tag": "Most Popular",
+    "tagType": "badge-secondary",
     "features": [
       "80 templates",
       "Full ATS optimization",
@@ -95,7 +95,7 @@
       "Cover letter builder",
       "LinkedIn optimizer"
     ],
-    "icon": "🚀"
+    "icon": "/src/assets/proPlus.svg"
   },
   {
     "id": 7,
@@ -104,7 +104,7 @@
     "price": 49.99,
     "period": "monthly",
     "tag": "Best Seller",
-    "tagType": "best-seller",
+    "tagType": "badge-error",
     "features": [
       "100+ templates",
       "Full ATS optimization",
@@ -113,7 +113,7 @@
       "24/7 support",
       "Custom branding"
     ],
-    "icon": "💼"
+    "icon": "/src/assets/business.svg"
   },
   {
     "id": 8,
@@ -122,7 +122,7 @@
     "price": 79.99,
     "period": "yearly",
     "tag": "Best Value",
-    "tagType": "best-value",
+    "tagType": "badge-success",
     "features": [
       "Unlimited templates",
       "Full ATS optimization",
@@ -131,7 +131,7 @@
       "24/7 priority support",
       "Custom branding"
     ],
-    "icon": "👑"
+    "icon": "/src/assets/king.svg"
   },
   {
     "id": 9,
@@ -140,7 +140,7 @@
     "price": 199.99,
     "period": "yearly",
     "tag": "Custom",
-    "tagType": "custom",
+    "tagType": "badge-secondary",
     "features": [
       "Unlimited templates",
       "Full ATS optimization",
@@ -150,6 +150,6 @@
       "Custom integrations",
       "SLA guarantee"
     ],
-    "icon": "🏢"
+    "icon": "/src/assets/building.svg"
   }
 ]
