@@ -8,6 +8,8 @@ const Premium = ({ plansPromise }) => {
 
     const [btnTheme, setBtnTheme] = useState("products")
 
+    const [cartItems, setCartItems] = useState([]);
+
 
 
     return (
@@ -31,7 +33,7 @@ const Premium = ({ plansPromise }) => {
                 </div>
             </div>
 
-            <Products plans={plans}></Products>
+            <Products plans={plans} btnTheme={btnTheme} cartItems={cartItems} setCartItems={setCartItems}></Products>
         </div>
     );
 };

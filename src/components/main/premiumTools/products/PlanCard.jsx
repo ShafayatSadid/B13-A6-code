@@ -1,9 +1,16 @@
 import React from 'react';
 
-const PlanCard = ({ plan }) => {
+const PlanCard = ({ plan, cartItems, setCartItems}) => {
     console.log(plan)
 
     const { name, description, price, period, tag, icon, features, tagType } = plan;
+
+    const handleCartItems = () => {
+        // setCartItems([...cartItems,plan])
+
+        console.log(cartItems);
+    }
+
     return (
 
         <div className="card max-w-96 w-full bg-base-100 shadow-sm mx-auto border border-[#F2F2F2] ">
@@ -41,7 +48,7 @@ const PlanCard = ({ plan }) => {
                 </ul>
 
                 <div className="mt-6">
-                    <button className="text-[1rem] font-bold text-[#FFFFFF] btn btn-primary py-3.5 rounded-4xl btn-block bg-linear-to-tr from-[#4F39F6] to-[#9514FA]">Buy Now</button>
+                    <button onClick={handleCartItems} className="text-[1rem] font-bold text-[#FFFFFF] btn btn-primary py-3.5 rounded-4xl btn-block bg-linear-to-tr from-[#4F39F6] to-[#9514FA]">Buy Now</button>
                 </div>
             </div>
         </div>
