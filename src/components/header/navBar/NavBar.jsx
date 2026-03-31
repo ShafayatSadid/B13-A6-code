@@ -1,7 +1,7 @@
 import React from 'react';
 import { LuShoppingCart } from 'react-icons/lu';
 
-const NavBar = ({ selectedCarts, setSelectedCarts, btnTheme, setBtnTheme }) => {
+const NavBar = ({ selectedCarts}) => {
 
     return (
         <div className="navbar bg-base-100 md:w-11/12 mx-auto lg:mt-4">
@@ -24,7 +24,7 @@ const NavBar = ({ selectedCarts, setSelectedCarts, btnTheme, setBtnTheme }) => {
                 <a className="btn btn-ghost text-[1.5rem] md:text-[2rem] lg:text-[3rem] bg-linear-to-bl from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-[1rem]/[120%] font-semibold text-[#101727]">
+                <ul className="menu menu-horizontal px-1 text-[1rem]/[120%] font-medium text-[#101727]">
                     <li><a>Products</a></li>
                     <li><a>Features</a></li>
                     <li><a>Pricing</a></li>
@@ -34,11 +34,11 @@ const NavBar = ({ selectedCarts, setSelectedCarts, btnTheme, setBtnTheme }) => {
             </div>
             <div className="navbar-end flex gap-2.5">
                 <div className='flex gap-0 md:gap-3 items-center md:text-[1rem] md:font-semibold text-[#101727]'>
-                    <button onClick={()=> setBtnTheme("cart")} className='btn bg-white border-none flex flex-col text-2xl relative'><LuShoppingCart />
+                    <button className='text-[#101727] bg-white border-none flex flex-col text-2xl relative'><LuShoppingCart />
                         <div className="w-4 h-4 bg-red-500 text-[12px] text-white rounded-full absolute -top-3">{selectedCarts.length}</div>
                     </button>
 
-                    <a className=''>Login</a>
+                    <a className='text-[1rem] font-medium '>Login</a>
                 </div>
                 <button className='btn text-[0.675rem] md:text-[1rem] font-medium md:font-semibold py-2 md:py-3 px-3 md:px-4  text-white rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA]'>Get Started</button>
 

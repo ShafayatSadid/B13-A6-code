@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <header>
-        <NavBar selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts} btnTheme={btnTheme} setBtnTheme={setBtnTheme} />
+        <NavBar selectedCarts={selectedCarts} />
       </header>
 
       <main>

@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <div>
 
-            <div className='lg:flex items-center lg:w-10/12 mx-auto justify-between gap-16.5 mt-12 md:mt-16 lg:mt-21'>
+            <div className='lg:flex items-center lg:w-10/12 mx-auto justify-between gap-16.5 mt-12 md:mt-16 lg:mt-21 space-y-3'>
 
                 <div className='px-4'>
                     {/*  */}

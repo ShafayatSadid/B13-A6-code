@@ -1,4 +1,8 @@
-# React + Vite
+# Digi Tools
+
+## 📝 Description
+
+Digi Tools is a modern and responsive web application that provides useful digital tools in one place. It is designed with a clean UI and smooth user experience to help users explore different tools easily. The website focuses on simplicity, speed, and interactivity.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

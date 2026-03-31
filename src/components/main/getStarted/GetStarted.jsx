@@ -29,7 +29,7 @@ const GetStarted = () => {
                             <img className='w-15 h-15 mx-auto' src={user} alt="" />
                         </div>
 
-                        <h3 className='text-[1.5rem] font-bold my-4'>Create Account</h3>
+                        <h3 className='text-[1.5rem] text-[#101727] font-bold my-4'>Create Account</h3>
                         <p className='text-[1rem] text-[#627382] pb-15'>Sign up for free in seconds. No credit card required to get started.</p>
                     </div>
 
@@ -50,7 +50,7 @@ const GetStarted = () => {
                             <img className='w-15 h-15 mx-auto' src={packages} alt="" />
                         </div>
 
-                        <h3 className='text-[1.5rem] font-bold my-4'>Choose Products</h3>
+                        <h3 className='text-[1.5rem] text-[#101727] font-bold my-4'>Choose Products</h3>
                         <p className='text-[1rem] text-[#627382] pb-15'>Browse our catalog and select the tools that fit your needs.</p>
                     </div>
 
@@ -71,7 +71,7 @@ const GetStarted = () => {
                             <img className='w-15 h-15 mx-auto' src={pro} alt="" />
                         </div>
 
-                        <h3 className='text-[1.5rem] font-bold my-4'>Start Creating</h3>
+                        <h3 className='text-[1.5rem] text-[#101727] font-bold my-4'>Start Creating</h3>
                         <p className='text-[1rem] text-[#627382] pb-15'>Download and start using your premium tools immediately.</p>
                     </div>
 
