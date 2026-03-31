@@ -1,20 +1,31 @@
 # Digi Tools
+---
 
 ## 📝 Description
 
 Digi Tools is a modern and responsive web application that provides useful digital tools in one place. It is designed with a clean UI and smooth user experience to help users explore different tools easily. The website focuses on simplicity, speed, and interactivity.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- 🧩 JavaScript (ES6)
+- 🌐 HTML5
+- 🎯 CSS3
+- 🔔 React Toastify (for notifications)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+### ✨ Features
+1. 🛒 Add to Cart System
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Users can select plans or tools and add them to a cart. Duplicate items are prevented, and users get a notification when they add a product.
 
-## Expanding the ESLint configuration
+2. 🔔 Smart Notifications
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The app uses toast notifications to inform users about actions like adding items or selecting duplicate products.
+
+3. 📱 Responsive Design
+
+The website works smoothly on mobile, tablet, and desktop devices with a clean and modern layout.
