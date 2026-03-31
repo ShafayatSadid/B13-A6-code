@@ -5,6 +5,7 @@ import NavBar from './components/header/navBar/NavBar'
 import Banner from './components/main/banner/Banner'
 import Premium from './components/main/premiumTools/Premium'
 import GetStarted from './components/main/getStarted/GetStarted'
+import Transparent from './components/main/transparent/Transparent'
 
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
 
 
         <GetStarted />
+
+        <Transparent/>
 
       </main>
 

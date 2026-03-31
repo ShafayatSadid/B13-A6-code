@@ -9,7 +9,7 @@ const Premium = ({ plansPromise, selectedCarts, setSelectedCarts, btnTheme, setB
     
 
     return (
-        <div className='mb-30 mx-1.5'>
+        <div className='mb-15 lg:mb-30 mx-1.5'>
 
             <div className='mt-20 md:mt-30 mb-10'>
                 <h2 className='text-[2rem] lg:text-[3rem] font-extrabold text-center'>Premium Digital Tools</h2>
