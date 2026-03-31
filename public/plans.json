@@ -12,7 +12,7 @@
       "Basic ATS optimization",
       "Export to PDF"
     ],
-    "icon": "/src/assets/free.svg"
+    "icon": "/free.svg"
   },
   {
     "id": 2,
@@ -28,7 +28,7 @@
       "Export to PDF",
       "Email support"
     ],
-    "icon": "/src/assets/starter.svg"
+    "icon": "/starter.svg"
   },
   {
     "id": 3,
@@ -44,7 +44,7 @@
       "Export to PDF & Word",
       "Email support"
     ],
-    "icon": "/src/assets/basic.png"
+    "icon": "/basic.png"
   },
   {
     "id": 4,
@@ -60,7 +60,7 @@
       "Export to PDF & Word",
       "Chat support"
     ],
-    "icon": "/src/assets/standard.svg"
+    "icon": "/standard.svg"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Priority support",
       "Cover letter builder"
     ],
-    "icon": "/src/assets/pro.png"
+    "icon": "/pro.png"
   },
   {
     "id": 6,
@@ -95,7 +95,7 @@
       "Cover letter builder",
       "LinkedIn optimizer"
     ],
-    "icon": "/src/assets/proPlus.svg"
+    "icon": "/proPlus.svg"
   },
   {
     "id": 7,
@@ -113,7 +113,7 @@
       "24/7 support",
       "Custom branding"
     ],
-    "icon": "/src/assets/business.svg"
+    "icon": "/business.svg"
   },
   {
     "id": 8,
@@ -131,7 +131,7 @@
       "24/7 priority support",
       "Custom branding"
     ],
-    "icon": "/src/assets/king.svg"
+    "icon": "/king.svg"
   },
   {
     "id": 9,
@@ -150,6 +150,6 @@
       "Custom integrations",
       "SLA guarantee"
     ],
-    "icon": "/src/assets/building.svg"
+    "icon": "/building.svg"
   }
 ]
