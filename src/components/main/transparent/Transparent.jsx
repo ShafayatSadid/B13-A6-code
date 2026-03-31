@@ -68,7 +68,7 @@ const Transparent = () => {
 
                         {/* product btn */}
                         <div className="mt-6">
-                            <button className="text-[1rem] font-bold text-[#FFFFFF] btn btn-primary py-3.5 rounded-4xl btn-block bg-linear-to-tr from-[#4F39F6] to-[#9514FA]">Get Started Free</button>
+                            <button className="text-[1rem] font-medium text-[#FFFFFF] btn btn-primary py-3.5 rounded-4xl btn-block bg-linear-to-tr from-[#4F39F6] to-[#9514FA]">Get Started Free</button>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ const Transparent = () => {
 
                         {/* product btn */}
                         <div className="mt-6">
-                            <button className="text-[1rem] font-bold bg-[#FFFFFF] btn py-3.5 rounded-4xl btn-block text-[#9514FA]">Get Started Free</button>
+                            <button className="text-[1rem] font-medium bg-[#FFFFFF] btn py-3.5 rounded-4xl btn-block text-[#9514FA]">Start Pro Trial</button>
                         </div>
                     </div>
                 </div>
@@ -213,7 +213,7 @@ const Transparent = () => {
 
                         {/* product btn */}
                         <div className="mt-6">
-                            <button className="text-[1rem] font-bold text-[#FFFFFF] btn btn-primary py-3.5 rounded-4xl btn-block bg-linear-to-tr from-[#4F39F6] to-[#9514FA]">Get Started Free</button>
+                            <button className="text-[1rem] font-medium text-[#FFFFFF] btn btn-primary py-3.5 rounded-4xl btn-block bg-linear-to-tr from-[#4F39F6] to-[#9514FA]">Contact Sales</button>
                         </div>
                     </div>
                 </div>

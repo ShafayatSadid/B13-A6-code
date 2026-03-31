@@ -6,6 +6,7 @@ import Banner from './components/main/banner/Banner'
 import Premium from './components/main/premiumTools/Premium'
 import GetStarted from './components/main/getStarted/GetStarted'
 import Transparent from './components/main/transparent/Transparent'
+import WorkFlow from './components/main/workFlow/WorkFlow'
 
 
 function App() {
@@ -38,6 +39,8 @@ function App() {
         <GetStarted />
 
         <Transparent/>
+
+        <WorkFlow/>
 
       </main>
 
