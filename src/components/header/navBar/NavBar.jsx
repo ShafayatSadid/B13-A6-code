@@ -1,7 +1,8 @@
 import React from 'react';
 import { LuShoppingCart } from 'react-icons/lu';
 
-const NavBar = () => {
+const NavBar = ({ selectedCarts, setSelectedCarts, btnTheme, setBtnTheme }) => {
+
     return (
         <div className="navbar bg-base-100 md:w-11/12 mx-auto lg:mt-4">
             <div className="navbar-start">
@@ -32,12 +33,15 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end flex gap-2.5">
-                <div className='flex gap-1.5 items-center md:text-[1rem] md:font-semibold text-[#101727]'>
-                    <a href=""><LuShoppingCart/></a>
-                    <a href="">Login</a>
+                <div className='flex gap-3 items-center md:text-[1rem] md:font-semibold text-[#101727]'>
+                    <button onClick={()=> setBtnTheme("cart")} className='btn bg-white border-none flex flex-col text-2xl relative'><LuShoppingCart />
+                        <div className="w-4 h-4 bg-red-500 text-[12px] text-white rounded-full absolute -top-3">{selectedCarts.length}</div>
+                    </button>
+
+                    <a>Login</a>
                 </div>
                 <button className='btn text-[0.675rem] md:text-[1rem] font-medium md:font-semibold py-2 md:py-3 px-3 md:px-4  text-white rounded-full bg-linear-to-bl from-[#4F39F6] to-[#9514FA]'>Get Started</button>
-                
+
             </div>
         </div>
     );
