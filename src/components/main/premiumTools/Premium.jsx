@@ -1,12 +1,13 @@
-import React, { use} from 'react';
+import React, { use } from 'react';
 import Products from './products/Products';
 import Carts from './carts/Carts';
+
 
 const Premium = ({ plansPromise, selectedCarts, setSelectedCarts, btnTheme, setBtnTheme }) => {
 
     const plans = use(plansPromise);
 
-    
+
 
     return (
         <div className='mb-15 lg:mb-30 mx-1.5'>
@@ -30,7 +31,9 @@ const Premium = ({ plansPromise, selectedCarts, setSelectedCarts, btnTheme, setB
             </div>
 
             {
-                btnTheme === "products" ? <Products plans={plans} btnTheme={btnTheme} selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts} />
+                btnTheme === "products" ?
+                    <Products plans={plans} btnTheme={btnTheme} selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts} />
+                    
 
                     :
                     <Carts selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts} />

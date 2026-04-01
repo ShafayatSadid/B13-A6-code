@@ -36,11 +36,18 @@ function App() {
         </Suspense>
 
 
-        <GetStarted />
+        {
+          btnTheme === "products" ? <GetStarted /> : <div></div>
+        }
 
-        <Transparent/>
+        {
+          btnTheme === "products" ? <Transparent /> : <div></div>
+        }
 
-        <WorkFlow/>
+        {
+          btnTheme === "products" ? <WorkFlow /> : <div></div>
+        }
+
 
       </main>
 
