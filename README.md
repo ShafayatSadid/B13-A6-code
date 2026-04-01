@@ -1,5 +1,5 @@
 # Digi Tools
----
+
 
 ## 📝 Description
 
@@ -18,14 +18,8 @@ Digi Tools is a modern and responsive web application that provides useful digit
 ---
 
 ### ✨ Features
-1. 🛒 Add to Cart System
+1. 🛒 Add to Cart: Users can select plans or tools and add them to the cart. Duplicate items are not allowed. If a user tries to add the same item again, they will see a warning message.
 
-Users can select plans or tools and add them to a cart. Duplicate items are prevented, and users get a notification when they add a product.
+2. Remove & Proceed: Users can remove any product or tool from the cart. Users will see the total price of selected tools. They can also click the Proceed button to continue with all selected items. A success notification is shown after proceeding.
 
-2. 🔔 Smart Notifications
-
-The app uses toast notifications to inform users about actions like adding items or selecting duplicate products.
-
-3. 📱 Responsive Design
-
-The website works smoothly on mobile, tablet, and desktop devices with a clean and modern layout.
+3. 🔢 Cart Count & Button State: Users can see the total number of selected items on the cart icon in the navbar. When a user clicks the Buy Now button, the text changes to Selected. If they click again, they will see a message: "You have already selected this plan."
