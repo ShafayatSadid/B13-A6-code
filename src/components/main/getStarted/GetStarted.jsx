@@ -8,7 +8,7 @@ const GetStarted = () => {
         <div className='bg-[#F9FAFC] py-15 lg:py-30 px-2'>
 
             <div className='text-center'>
-                <h2 className='text-[2rem] md:text-[3rem] font-extrabold '>Get Started in 3 Steps</h2>
+                <h2 className='text-[2rem] md:text-[3rem] font-extrabold text-black'>Get Started in 3 Steps</h2>
                 <p className='text-[1rem] text-[#627382] mt-3 md:mt-4 mb-5 md:mb-10 '>Start using premium digital tools in minutes, not hours.</p>
             </div>
 
