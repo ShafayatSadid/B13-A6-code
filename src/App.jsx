@@ -40,6 +40,7 @@ function App() {
           btnTheme === "products" ? <GetStarted /> : <div></div>
         }
 
+
         {
           btnTheme === "products" ? <Transparent /> : <div></div>
         }
