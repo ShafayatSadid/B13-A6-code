@@ -1,25 +1,78 @@
-# Digi Tools
+# DigiTools
 
+DigiTools is a React-based web application that provides premium digital tools to help professionals supercharge their workflow. It offers AI-powered features, multiple subscription plans, and an intuitive interface for easy access to various tools.
 
-## 📝 Description
+## Screenshot
 
-Digi Tools is a modern and responsive web application that provides useful digital tools in one place. It is designed with a clean UI and smooth user experience to help users explore different tools easily. The website focuses on simplicity, speed, and interactivity.
+![alt text](screencapture-digi-tools-test-netlify-app-2026-04-09-19_40_24.png)
 
----
+## Technologies Used
 
-## 🚀 Technologies Used
-- ⚛️ React.js
-- 🎨 Tailwind CSS
-- 🧩 JavaScript (ES6)
-- 🌐 HTML5
-- 🎯 CSS3
-- 🔔 React Toastify (for notifications)
+- React
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Icons
+- React Toastify
 
----
+## Features
 
-### ✨ Features
-1. 🛒 Add to Cart: Users can select plans or tools and add them to the cart. Duplicate items are not allowed. If a user tries to add the same item again, they will see a warning message.
+- AI-powered digital tools for workflow enhancement
+- Multiple subscription plans (Free, Starter, Basic, etc.)
+- Interactive plan selection with cart functionality
+- Step-by-step getting started guide
+- Responsive design for all devices
+- Toast notifications for user feedback
 
-2. Remove & Proceed: Users can remove any product or tool from the cart. Users will see the total price of selected tools. They can also click the Proceed button to continue with all selected items. A success notification is shown after proceeding.
+## Dependencies
 
-3. 🔢 Cart Count & Button State: Users can see the total number of selected items on the cart icon in the navbar. When a user clicks the Buy Now button, the text changes to Selected. If they click again, they will see a message: "You have already selected this plan."
+### Production Dependencies
+- @tailwindcss/vite: ^4.2.2
+- react: ^19.2.4
+- react-dom: ^19.2.4
+- react-icons: ^5.6.0
+- react-toastify: ^11.0.5
+- tailwindcss: ^4.2.2
+
+### Development Dependencies
+- @eslint/js: ^9.39.4
+- @types/react: ^19.2.14
+- @types/react-dom: ^19.2.3
+- @vitejs/plugin-react: ^6.0.1
+- daisyui: ^5.5.19
+- eslint: ^9.39.4
+- eslint-plugin-react-hooks: ^7.0.1
+- eslint-plugin-react-refresh: ^0.5.2
+- globals: ^17.4.0
+- vite: ^8.0.1
+
+## Run Locally
+
+Follow these steps to run the project on your local machine:
+
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd B13-A6-code
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+   ```
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5173` (or the port shown in the terminal).
+
+## Links
+
+- Live Demo: https://digi-tools-test.netlify.app/
+- GitHub Repository: https://github.com/ShafayatSadid/B13-A6-code
